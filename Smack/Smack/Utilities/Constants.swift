@@ -13,4 +13,6 @@ import Foundation
 
 let TO_LOGIN = "toLogin"
 
+let TO_NEW_ACCOUNT = "toNewAccount"
+
 

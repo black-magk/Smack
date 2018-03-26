@@ -19,6 +19,7 @@
 		F7AD35C920696CE5004ACE28 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD35C820696CE5004ACE28 /* Constants.swift */; };
 		F7BA7FCB20684C3D00A79F22 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA7FCA20684C3D00A79F22 /* gradientView.swift */; };
 		F7FDA2142069AF6600FD8C52 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDA2132069AF6600FD8C52 /* LoginVC.swift */; };
+		F7FDA2162069B29500FD8C52 /* NewAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDA2152069B29500FD8C52 /* NewAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F7AD35C820696CE5004ACE28 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7BA7FCA20684C3D00A79F22 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
 		F7FDA2132069AF6600FD8C52 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F7FDA2152069B29500FD8C52 /* NewAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				F775548E20682E6C00CD1B61 /* ChatVC.swift */,
+				F7FDA2152069B29500FD8C52 /* NewAccountVC.swift */,
 				F775549020682E7E00CD1B61 /* ChannelVC.swift */,
 				F7FDA2132069AF6600FD8C52 /* LoginVC.swift */,
 			);
@@ -292,6 +295,7 @@
 				F7FDA2142069AF6600FD8C52 /* LoginVC.swift in Sources */,
 				F7BA7FCB20684C3D00A79F22 /* gradientView.swift in Sources */,
 				F7AD35C920696CE5004ACE28 /* Constants.swift in Sources */,
+				F7FDA2162069B29500FD8C52 /* NewAccountVC.swift in Sources */,
 				F775548F20682E6C00CD1B61 /* ChatVC.swift in Sources */,
 				F756620C20659B4900B2A066 /* AppDelegate.swift in Sources */,
 			);
