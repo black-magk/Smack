@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/landoncarr/Desktop/Smack/Smack/Smack/Controller/LoginVC.swift">
+   </FileRef>
+   <FileRef
       location = "group:Smack.xcodeproj">
    </FileRef>
    <FileRef
