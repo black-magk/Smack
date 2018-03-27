@@ -228,21 +228,6 @@
                                     <constraint firstAttribute="height" constant="2" id="yb3-Lb-e3Z"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtC-FZ-kTO">
-                                <rect key="frame" x="62.5" y="350" width="250" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="VgU-4z-H8M"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="c0I-s2-7NR"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
-                                <state key="normal" title="Dont Have an Account? Sign Up Here">
-                                    <color key="titleColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="noAccountBtn:" destination="sxJ-pd-u4h" eventType="touchUpInside" id="ZEY-Fw-gzM"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Toj-1f-1Hf">
                                 <rect key="frame" x="62" y="307" width="250" height="33"/>
                                 <color key="backgroundColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -251,21 +236,31 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3P-vc-WU3">
+                                <rect key="frame" x="62" y="360" width="250" height="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                <state key="normal" title="Dont have an account? Create One">
+                                    <color key="titleColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="needAccount:" destination="sxJ-pd-u4h" eventType="touchUpInside" id="REG-eh-itC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Lxk-Gh-4Wd" firstAttribute="top" secondItem="iLl-iE-cuI" secondAttribute="top" constant="8" id="1PW-Sz-GbJ"/>
                             <constraint firstItem="YZT-NT-oB8" firstAttribute="top" secondItem="iLl-iE-cuI" secondAttribute="top" constant="40" id="23x-1U-9zK"/>
                             <constraint firstItem="YZT-NT-oB8" firstAttribute="centerX" secondItem="PVM-3E-s0Z" secondAttribute="centerX" id="3Z7-9e-pGu"/>
-                            <constraint firstItem="vtC-FZ-kTO" firstAttribute="top" secondItem="Toj-1f-1Hf" secondAttribute="bottom" constant="10" id="5wQ-pW-lRy"/>
                             <constraint firstItem="ux1-jO-fVd" firstAttribute="top" secondItem="YZT-NT-oB8" secondAttribute="bottom" constant="40" id="Aq1-Ph-5WU"/>
+                            <constraint firstItem="Z3P-vc-WU3" firstAttribute="top" secondItem="Toj-1f-1Hf" secondAttribute="bottom" constant="20" id="B0q-gc-B2M"/>
                             <constraint firstItem="Toj-1f-1Hf" firstAttribute="top" secondItem="ux1-jO-fVd" secondAttribute="bottom" constant="40" id="DXL-RU-4T8"/>
-                            <constraint firstItem="vtC-FZ-kTO" firstAttribute="width" secondItem="Toj-1f-1Hf" secondAttribute="width" id="Dcn-Rt-K2F"/>
                             <constraint firstItem="iLl-iE-cuI" firstAttribute="trailing" secondItem="Lxk-Gh-4Wd" secondAttribute="trailing" constant="10" id="KCA-Sj-pZw"/>
+                            <constraint firstItem="Z3P-vc-WU3" firstAttribute="centerX" secondItem="PVM-3E-s0Z" secondAttribute="centerX" id="Ug0-ga-Wm8"/>
                             <constraint firstItem="ux1-jO-fVd" firstAttribute="centerX" secondItem="PVM-3E-s0Z" secondAttribute="centerX" id="VDD-RH-4Vi"/>
+                            <constraint firstItem="Z3P-vc-WU3" firstAttribute="width" secondItem="Toj-1f-1Hf" secondAttribute="width" id="cPQ-n7-al5"/>
                             <constraint firstItem="Toj-1f-1Hf" firstAttribute="width" secondItem="ux1-jO-fVd" secondAttribute="width" id="h3A-3s-ybG"/>
                             <constraint firstItem="Toj-1f-1Hf" firstAttribute="centerX" secondItem="PVM-3E-s0Z" secondAttribute="centerX" id="j7j-Hj-9Ra"/>
-                            <constraint firstItem="vtC-FZ-kTO" firstAttribute="centerX" secondItem="PVM-3E-s0Z" secondAttribute="centerX" id="vXe-cf-8br"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iLl-iE-cuI"/>
                     </view>
@@ -277,10 +272,10 @@
             </objects>
             <point key="canvasLocation" x="1940.625" y="-885"/>
         </scene>
-        <!--New AccountVC-->
+        <!--View Controller-->
         <scene sceneID="5Q9-tt-VNf">
             <objects>
-                <viewController id="DUR-z5-aBt" customClass="NewAccountVC" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DUR-z5-aBt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aw1-Di-5Tg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -291,9 +286,6 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="28" id="kb4-K2-hsD"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="closeButton"/>
-                                <connections>
-                                    <action selector="x2BtnPressed:" destination="DUR-z5-aBt" eventType="touchUpInside" id="geF-Th-f1l"/>
-                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="23w-oS-G0C">
                                 <rect key="frame" x="94" y="60" width="187.5" height="23"/>

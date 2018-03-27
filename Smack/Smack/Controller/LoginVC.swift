@@ -22,10 +22,10 @@ class LoginVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-
-    @IBAction func noAccountBtn(_ sender: Any) {
-        
+    @IBAction func needAccount(_ sender: Any) {
         
         performSegue(withIdentifier: TO_NEW_ACCOUNT, sender: nil)
     }
+    
+    
 }

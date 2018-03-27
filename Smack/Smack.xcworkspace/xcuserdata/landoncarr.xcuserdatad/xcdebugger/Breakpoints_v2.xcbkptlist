@@ -10,90 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Smack/Controller/NewAccountVC.swift"
-            timestampString = "543799643.282568"
+            timestampString = "543810391.6777951"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "5"
             endingLineNumber = "5"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Smack.NewAccountVC.__deallocating_deinit"
-                  moduleName = "Smack"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/landoncarr/Desktop/Smack/Smack/Smack/Controller/NewAccountVC.swift"
-                  timestampString = "543799643.57515"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Smack.NewAccountVC.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Smack.NewAccountVC"
-                  moduleName = "Smack"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/landoncarr/Desktop/Smack/Smack/Smack/Controller/NewAccountVC.swift"
-                  timestampString = "543799643.58003"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Smack.NewAccountVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Smack.NewAccountVC"
-                  moduleName = "Smack"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/landoncarr/Desktop/Smack/Smack/Smack/Controller/NewAccountVC.swift"
-                  timestampString = "543799643.624426"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "283">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Smack.NewAccountVC.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Smack.NewAccountVC&gt;"
-                  moduleName = "Smack"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/landoncarr/Desktop/Smack/Smack/Smack/Controller/NewAccountVC.swift"
-                  timestampString = "543799643.629167"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Smack.NewAccountVC.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Smack.NewAccountVC&gt;"
-                  moduleName = "Smack"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/landoncarr/Desktop/Smack/Smack/Smack/Controller/NewAccountVC.swift"
-                  timestampString = "543799643.633195"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "116">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
