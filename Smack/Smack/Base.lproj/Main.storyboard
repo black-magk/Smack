@@ -153,7 +153,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="YZT-NT-oB8">
-                                <rect key="frame" x="126" y="60" width="123.5" height="40"/>
+                                <rect key="frame" x="126.5" y="60" width="123.5" height="40"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smackLogo" translatesAutoresizingMaskIntoConstraints="NO" id="kaR-70-J3l">
                                         <rect key="frame" x="0.0" y="0.0" width="48" height="40"/>
@@ -177,7 +177,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="ux1-jO-fVd">
-                                <rect key="frame" x="62.5" y="140" width="250" height="127"/>
+                                <rect key="frame" x="63" y="140" width="250" height="127"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IP3-NI-fmK">
                                         <rect key="frame" x="0.0" y="0.0" width="82.5" height="30"/>
@@ -220,7 +220,7 @@
                                     <constraint firstAttribute="width" constant="250" id="Id7-bv-qqv"/>
                                 </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PLO-g5-uPQ" customClass="gradientView" customModule="Smack" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLO-g5-uPQ" customClass="gradientView" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="62" y="332" width="250" height="2"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -261,6 +261,8 @@
                             <constraint firstItem="Z3P-vc-WU3" firstAttribute="width" secondItem="Toj-1f-1Hf" secondAttribute="width" id="cPQ-n7-al5"/>
                             <constraint firstItem="Toj-1f-1Hf" firstAttribute="width" secondItem="ux1-jO-fVd" secondAttribute="width" id="h3A-3s-ybG"/>
                             <constraint firstItem="Toj-1f-1Hf" firstAttribute="centerX" secondItem="PVM-3E-s0Z" secondAttribute="centerX" id="j7j-Hj-9Ra"/>
+                            <constraint firstItem="PLO-g5-uPQ" firstAttribute="leading" secondItem="Toj-1f-1Hf" secondAttribute="leading" id="nm5-pF-1Eb"/>
+                            <constraint firstItem="PLO-g5-uPQ" firstAttribute="centerY" secondItem="PVM-3E-s0Z" secondAttribute="centerY" id="wFc-R1-qMa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iLl-iE-cuI"/>
                     </view>
@@ -272,10 +274,10 @@
             </objects>
             <point key="canvasLocation" x="1940.625" y="-885"/>
         </scene>
-        <!--View Controller-->
+        <!--AccountVC-->
         <scene sceneID="5Q9-tt-VNf">
             <objects>
-                <viewController id="DUR-z5-aBt" sceneMemberID="viewController">
+                <viewController id="DUR-z5-aBt" customClass="AccountVC" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aw1-Di-5Tg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -286,6 +288,9 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="28" id="kb4-K2-hsD"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="closeButton"/>
+                                <connections>
+                                    <action selector="returnMain:" destination="DUR-z5-aBt" eventType="touchUpInside" id="d5x-et-hMM"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="23w-oS-G0C">
                                 <rect key="frame" x="94" y="60" width="187.5" height="23"/>
@@ -418,8 +423,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="on3-Lv-6D1"/>
                     </view>
+                    <connections>
+                        <segue destination="95u-fX-OoR" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="0y2-eN-XTh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GvB-o4-KOz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="95u-fX-OoR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2698" y="-856"/>
         </scene>
