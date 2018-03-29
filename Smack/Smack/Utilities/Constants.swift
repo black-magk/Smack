@@ -32,6 +32,6 @@ let USER_EMAIL = "userEmail"
 
 
 // URL CONSTANTS
-let BASE_URL = "https://chatappdevelopment.herokuapp.com/v1"
+let BASE_URL = "https://chatappdevelopment.herokuapp.com/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 

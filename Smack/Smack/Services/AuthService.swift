@@ -90,11 +90,4 @@ class AuthService {
         
         }
     }
-    
-    
-    
-    
-    
-    
-    
 }
